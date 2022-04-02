@@ -27,7 +27,7 @@ These blocks can be used in other programs such as the LCD screen program.
 
 ## Images
 
-<img width="1179" src="https://user-images.githubusercontent.com/22250686/161390678-b28bbad9-92dd-4f94-95a2-de0f86622371.png">
+<img width="1161" src="https://user-images.githubusercontent.com/22250686/161390879-7318566d-42ed-456d-b1a3-988cec6b59d4.png">
 
 <img width="1037" src="https://user-images.githubusercontent.com/22250686/161390680-b422024e-f705-43cb-a143-49101405f422.png">
 
