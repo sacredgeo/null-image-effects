@@ -1,19 +1,19 @@
 {
   "blocks": {
     "image-effects": {
-      "x": 189,
-      "y": -132,
+      "x": 201,
+      "y": -130,
       "outputLinks": {
         "imageDataOut": [
           {
-            "image2canvas": "imageData"
+            "rgb-split": "imageDataIn"
           }
         ]
       },
       "inputValues": {
         "brightness": -8.07453416149069,
         "contrast": -8.07453416149069,
-        "invert_color": true,
+        "invert_color": false,
         "grey": false,
         "gray_scale": false,
         "shift_hue_by": 276.4968944099379,
@@ -72,8 +72,8 @@
       }
     },
     "image2canvas": {
-      "x": 407,
-      "y": -105,
+      "x": 583,
+      "y": -92,
       "outputLinks": {}
     },
     "image-loader": {
@@ -102,13 +102,30 @@
         "filename": "../../resources/17.gif",
         "animate": false
       }
+    },
+    "rgb-split": {
+      "x": 420.00000000000006,
+      "y": -98,
+      "outputLinks": {
+        "imageDataOut": [
+          {
+            "image2canvas": "imageData"
+          }
+        ]
+      },
+      "inputValues": {
+        "red": -8.076923076923077,
+        "green": -4.742268041237114,
+        "blue": 7.628865979381445
+      }
     }
   },
   "renderOrder": [
     "image-loader",
     "image-effects",
     "image2canvas",
-    "gif-file-loader"
+    "gif-file-loader",
+    "rgb-split"
   ],
   "name": "Untitled"
 }
