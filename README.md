@@ -23,8 +23,7 @@ Splits RGB channels in different directions. Works with regular images and gifs.
 - The image2canvas block is simply used to draw whatever imageData it recieves on a canvas.
 
 ## Other
-Consider resizing gifs to smaller dimesions as this is processing a lot of data. 
-These blocks can be used in other programs.
+These blocks can be used in other programs such as the LCD screen program.
 
 ## Images
 
