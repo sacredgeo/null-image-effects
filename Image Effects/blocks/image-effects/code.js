@@ -61,12 +61,12 @@ for (let i = 0; i < originalArray.length; i += 4) {
   }
   if (state.BRIGHT_CONTRAST) {
     //brightness
-    newArray[i + 0] += 255 * (state.brightness / 100)
+    newArray[i] += 255 * (state.brightness / 100)
     newArray[i + 1] += 255 * (state.brightness / 100)
     newArray[i + 2] += 255 * (state.brightness / 100)
     //contrast
     let factor = (259 * (state.contrast + 255)) / (255 * (259 - state.contrast))
-    newArray[i + 0] = factor * (newArray[i + 0] - 128.0) + 128.0
+    newArray[i] = factor * (newArray[i] - 128.0) + 128.0
     newArray[i + 1] = factor * (newArray[i + 1] - 128.0) + 128.0
     newArray[i + 2] = factor * (newArray[i + 2] - 128.0) + 128.0
   }
