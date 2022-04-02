@@ -1,0 +1,114 @@
+{
+  "blocks": {
+    "image-effects": {
+      "x": 189,
+      "y": -132,
+      "outputLinks": {
+        "imageDataOut": [
+          {
+            "image2canvas": "imageData"
+          }
+        ]
+      },
+      "inputValues": {
+        "brightness": -8.07453416149069,
+        "contrast": -8.07453416149069,
+        "invert_color": true,
+        "grey": false,
+        "gray_scale": false,
+        "shift_hue_by": 276.4968944099379,
+        "shift_hue": false,
+        "SHIFT_HUE": true,
+        "color": {
+          "hsl": {
+            "h": 249.8823529411765,
+            "s": 1,
+            "l": 0.5,
+            "a": 1
+          },
+          "hex": "#2a00ff",
+          "rgb": {
+            "r": 42,
+            "g": 0,
+            "b": 255,
+            "a": 1
+          },
+          "hsv": {
+            "h": 249.8823529411765,
+            "s": 1,
+            "v": 1,
+            "a": 1
+          },
+          "oldHue": 249.8823529411765,
+          "source": "hsv"
+        },
+        "BRIGHT_CONTRAST": false,
+        "FILL_COLOR": true,
+        "fill_amount": 0.5217391304347826,
+        "fill_color": {
+          "hsl": {
+            "h": 249.99999999999994,
+            "s": 0.7985611510791366,
+            "l": 0.4912816,
+            "a": 1
+          },
+          "hex": "#3b19e1",
+          "rgb": {
+            "r": 59,
+            "g": 25,
+            "b": 225,
+            "a": 1
+          },
+          "hsv": {
+            "h": 249.99999999999994,
+            "s": 0.888,
+            "v": 0.8835999999999999,
+            "a": 1
+          },
+          "oldHue": 249.99999999999994,
+          "source": "hsv"
+        },
+        "FILL": false
+      }
+    },
+    "image2canvas": {
+      "x": 407,
+      "y": -105,
+      "outputLinks": {}
+    },
+    "image-loader": {
+      "x": 9.000000000000007,
+      "y": -111,
+      "outputLinks": {
+        "imageData": [
+          {
+            "image-effects": "imageDataIn"
+          }
+        ],
+        "filename": []
+      },
+      "inputValues": {
+        "filename": "../../resources/tree.jpg"
+      }
+    },
+    "gif-file-loader": {
+      "x": 16,
+      "y": 36,
+      "outputLinks": {
+        "filename": [],
+        "imageData": []
+      },
+      "inputValues": {
+        "filename": "../../resources/17.gif",
+        "animate": false
+      }
+    }
+  },
+  "renderOrder": [
+    "image-loader",
+    "image-effects",
+    "image2canvas",
+    "gif-file-loader"
+  ],
+  "name": "Untitled"
+}
