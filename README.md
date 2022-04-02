@@ -1,5 +1,5 @@
 # null-image-effects
-This is a program containing blocks for basic image manipulation
+This is a program for Null containing blocks for basic image manipulation. Check out Null here: https://github.com/matt-way/0x00
 
 ## Included blocks
 - image-loader
@@ -22,9 +22,11 @@ Splits RGB channels in different directions. Works with regular images and gifs.
 ### image2canvas
 - The image2canvas block is simply used to draw whatever imageData it recieves on a canvas.
 
-### Other
+## Other
 Consider resizing gifs to smaller dimesions as this is processing a lot of data. 
 These blocks can be used in other programs.
+
+## Images
 
 <img width="1179" src="https://user-images.githubusercontent.com/22250686/161390678-b28bbad9-92dd-4f94-95a2-de0f86622371.png">
 
