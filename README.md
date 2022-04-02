@@ -17,7 +17,7 @@ The image-effects block contains basic image manipulation features. It only reci
 
 ### rgb-split
 Splits RGB channels in different directions. Works with regular images and gifs.
-- Can place before or after other blocks for desired effects.
+- Can be placed before or after other blocks for desired effect.
 
 ### image2canvas
 - The image2canvas block is simply used to draw whatever imageData it recieves on a canvas.
